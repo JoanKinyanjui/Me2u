@@ -67,7 +67,7 @@ background-color: white;
 }
 .info{
     flex: 60%;
-    background-image: url(./images/guy5.jpg);
+    background-image: url("https://i.ibb.co/rvsFygT/guy5.jpg");
     position: static;
     opacity: 1;
     background-position: center;
@@ -103,6 +103,8 @@ background-color: white;
     margin: auto;
     text-align: center;
     font-size: 17px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 .btn{
     outline: none;
@@ -150,12 +152,12 @@ background-color: white;
     align-content: center;
     text-align: center;
     margin: auto;
-    color: rgb(4, 4, 172);
+    color: rgb(5, 68, 193);
 }
 .footer{
     width: 100vw;
     height: 20vh;
-    background-color: black;
+    background-color: navajowhite;
     margin: auto;
     display: table-cell;
 }
@@ -169,4 +171,12 @@ background-color: white;
     vertical-align: middle;
     position: absolute;
     left: 48%;
+    display:  flex;
+}
+
+.logo{
+    width: 30%;
+    height:  auto;
+    border-radius: 100%;
+    box-shadow: black 2px 2px 3px;
 }
